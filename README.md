@@ -1,6 +1,4 @@
 # docker-zeppelin
-Zeppelin v0.9.0-SNAPSHOT
-
 
 ### Launching Zeppelin with Docker in 1 minute
 
