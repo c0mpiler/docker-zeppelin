@@ -37,5 +37,5 @@ To persist notes and logs, we can set [docker volumn option](https://docs.docke
 Here is an example command for that.
 
 ```bash
-docker run -p 8080:8080 --rm -v $PWD/logs:/logs -v $PWD/notebook:/notebook -e ZEPPELIN_LOG_DIR='/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' --name zeppelin c0mpiler/docker-zeppelin:latest
+docker run -p 8080:8080 --rm -v $PWD/logs:/logs -v $PWD/notebook:/notebook -e ZEPPELIN_LOG_DIR='/logs' -e ZEPPELIN_NOTEBOOK_DIR='/notebook' --name zeppelin c0mpiler/zeppelin:latest
 ```
