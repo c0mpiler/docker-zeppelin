@@ -2,7 +2,7 @@
 
 ### Launching Zeppelin with Docker in 1 minute
 
-As of 0.7.2, Zeppelin community integrated building docker image into the release process.  
+As of 0.8.2, Zeppelin community integrated building docker image into the release process.  
 Thus, every release will include its own docker image.
 
 Here is few links might be helpful.
